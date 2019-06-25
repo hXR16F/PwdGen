@@ -2,7 +2,17 @@
 :: hXR16F.ar@gmail.com
 
 @echo off
-mode 80,25&color 07&setlocal EnableDelayedExpansion
+setlocal EnableDelayedExpansion
+if not "%1" equ "" (
+	if not "%2" equ "" (
+		set "selected_charset=%1"
+		set "length=%2"
+		goto :next
+	) else (
+		exit /b
+	)
+)
+mode 80,25&color 07
 call ansicon.exe -i
 
 :main
@@ -32,6 +42,7 @@ call ansicon.exe -i
 	set /p "selected_charset=[92;40m[[0m[97;40m*[0m[92;40m][0m [97;40mCharset : [0m[37;40m"
 	set /p "length=[92;40m[[0m[97;40m*[0m[92;40m][0m [97;40mLength : [0m[37;40m"
 	
+	:next
 	if "!selected_charset!" equ "1" (
 		for /l %%i in (1,1,!length!) do (
 			call :rand 0 9
@@ -91,6 +102,8 @@ call ansicon.exe -i
 			)
 		)
 	)
+	
+	if not "%1" equ "" (echo !password!&exit /b)
 	
 	(
 		echo.
