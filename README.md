@@ -27,7 +27,7 @@ PwdGen.bat 1 6
 ```
     
 # Usage - batch file
-Code:
+Code #1:
 
 ```batchfile
 @echo off
@@ -40,5 +40,23 @@ Example output:
 
 ```
 Your new password is : NVjpYPUeNoQFrZAe
+Press any key to continue . . .
+```
+
+Code #2:
+
+```batchfile
+@echo off
+call PwdGen.bat 1 8 > "_string"
+for /f "tokens=1*" %%i in (_string) do set "password=%%i"
+del /f /q "_string" >nul
+echo Your new password is : %password%
+pause
+```
+
+Example output:
+
+```
+Your new password is : 61589124
 Press any key to continue . . .
 ```
