@@ -57,7 +57,7 @@ pause
 Example output:
 
 ```
-Your new password is : 61589124
+Your new password is : 61589174
 Press any key to continue . . .
 ```
 
