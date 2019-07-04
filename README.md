@@ -60,3 +60,19 @@ Example output:
 Your new password is : 61589124
 Press any key to continue . . .
 ```
+
+# Charsets
+1. 0123456789
+2. abcdefghijklmnopqrstuvwxyz
+3. abcdefghijklmnopqrstuvwxyz + 0123456789
+4. ABCDEFGHIJKLMNOPQRSTUVWXYZ
+5. ABCDEFGHIJKLMNOPQRSTUVWXYZ + 0123456789
+6. abcdefghijklmnopqrstuvwxyz + ABCDEFGHIJKLMNOPQRSTUVWXYZ
+7. abcdefghijklmnopqrstuvwxyz + ABCDEFGHIJKLMNOPQRSTUVWXYZ + 0123456789
+8. 0123456789 + !@#$%^&*
+9. abcdefghijklmnopqrstuvwxyz + !@#$%^&*
+10. abcdefghijklmnopqrstuvwxyz + 0123456789 + !@#$%^&*
+11. ABCDEFGHIJKLMNOPQRSTUVWXYZ + !@#$%^&*
+12. ABCDEFGHIJKLMNOPQRSTUVWXYZ + 0123456789 + !@#$%^&*
+13. abcdefghijklmnopqrstuvwxyz + ABCDEFGHIJKLMNOPQRSTUVWXYZ + !@#$%^&*
+14. abcdefghijklmnopqrstuvwxyz + ABCDEFGHIJKLMNOPQRSTUVWXYZ + 0123456789 + !@#$%^&*
