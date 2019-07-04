@@ -36,7 +36,6 @@ call ansicon.exe -i
 		echo     [32;40m[[0m[37;40m5[0m[32;40m][0m [37;40mABCDEFGHIJKLMNOPQRSTUVWXYZ [97;40m+[0m 0123456789[0m
 		echo     [32;40m[[0m[37;40m6[0m[32;40m][0m [37;40mabcdefghijklmnopqrstuvwxyz [97;40m+[0m ABCDEFGHIJKLMNOPQRSTUVWXYZ[0m
 		echo     [32;40m[[0m[37;40m7[0m[32;40m][0m [37;40mabcdefghijklmnopqrstuvwxyz [97;40m+[0m ABCDEFGHIJKLMNOPQRSTUVWXYZ [97;40m+[0m 0123456789[0m
-		
 		echo     [32;40m[[0m[37;40m8[0m[32;40m][0m [37;40m0123456789 [97;40m+[0m ^^!@#$%%^^^^^&*[0m
 		echo     [32;40m[[0m[37;40m9[0m[32;40m][0m [37;40mabcdefghijklmnopqrstuvwxyz [97;40m+[0m ^^!@#$%%^^^^^&*[0m
 		echo     [32;40m[[0m[37;40m10[0m[32;40m][0m [37;40mabcdefghijklmnopqrstuvwxyz [97;40m+[0m 0123456789 [97;40m+[0m ^^!@#$%%^^^^^&*[0m
