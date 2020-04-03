@@ -62,6 +62,7 @@ Press any key to continue . . .
 ```
 
 # Charsets
+```
 1. 0123456789
 2. abcdefghijklmnopqrstuvwxyz
 3. abcdefghijklmnopqrstuvwxyz + 0123456789
@@ -76,3 +77,8 @@ Press any key to continue . . .
 12. ABCDEFGHIJKLMNOPQRSTUVWXYZ + 0123456789 + !@#$%^&*
 13. abcdefghijklmnopqrstuvwxyz + ABCDEFGHIJKLMNOPQRSTUVWXYZ + !@#$%^&*
 14. abcdefghijklmnopqrstuvwxyz + ABCDEFGHIJKLMNOPQRSTUVWXYZ + 0123456789 + !@#$%^&*
+```
+
+# Donate
+If you support my work or like my projects, you can donate me some money. Thank you 💙\
+BTC: `bc1q9trutvumrfuwrdwj377xd7u2flyp527j6t6qh9`
